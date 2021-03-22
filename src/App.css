@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #22B573;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+body h1 {
+  font-size: 50px;
+  line-height: 100px;
+  color: white;
+  margin: 10px auto 40px auto;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+body #content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 50px;
+  width: 90vw;
+  font-weight: 500;
+  margin: auto;
+}
+
+body #content h3 {
+  color: #e4bc0a;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+body #content .contDiv {
+  width: 310px;
+  height: 455px;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 28px;
+  background-color: #0f0f0f;
+  color: white;
+  text-align: left;
+  position: relative;
+}
+
+body #content .contDiv#textDiv2 {
+  background-color: #ececec;
+  color: black;
+}
+
+body #content .contDiv p {
+  margin-top: 15px;
+}
+
+body #content .contDiv#vidDiv {
+  position: relative;
+}
+
+body #content .contDiv#vidDiv h3 {
+  position: absolute;
+  bottom: 15px;
+}
+
+body #content .contDiv Button {
+  background-color: #0f0f0f;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  left: calc(50% - 55px);
+  top: 30%;
+}
+
+body #content .contDiv Button:hover {
+  background-color: #e4bc0a;
+}
+
+body #content .contDiv .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 45px solid #ececec;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: calc(30% + 30px);
+}
+
+body .linkMore {
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  margin-left: -35px;
+  color: #e4bc0a;
+  margin-top: 5px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 790px) {
+  #heading {
+    font-size: 16px;
+    margin-left: 30px;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=App.css.map */
